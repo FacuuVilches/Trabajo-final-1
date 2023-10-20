@@ -1,7 +1,7 @@
 import { Column, Entity, JoinColumn, OneToMany, OneToOne } from "typeorm";
 import { BaseEntity } from "../config/base.entity";
 import { UserEntity } from "../user/entities/user.entity";
-import { PurchaseEntity } from "../purchase/purchase.entity";
+import { PurchaseEntity } from "../purchase/entities/purchase.entity";
 
 @Entity({ name: "customer" })
 export class CustomerEntity extends BaseEntity {
@@ -17,5 +17,4 @@ export class CustomerEntity extends BaseEntity {
 
   @OneToMany(() => PurchaseEntity, (purchase) => purchase.customer)
   purchases!: PurchaseEntity[];
-  
 }

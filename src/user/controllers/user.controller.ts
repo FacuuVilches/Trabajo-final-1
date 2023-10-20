@@ -13,7 +13,7 @@ export class UserController {
     try {
       const users = await this.userService.findAllUser();
       if (users.length === 0) {
-        return this.httpResponse.NotFound(res, "No existe el datos");
+        return this.httpResponse.NotFound(res, "No existe el dato");
       }
       // this.httpResponse.Ok(res, users);
       res.render("users", { users });

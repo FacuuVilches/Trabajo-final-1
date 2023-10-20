@@ -19,9 +19,12 @@ export class UserDTO extends BaseDTO {
 
   @IsNotEmpty()
   city!: string;
-
+//ss
   @IsNotEmpty()
   province!: string;
+
+  @IsNotEmpty()
+  role!: RoleType;
 }
 
 export enum RoleType {
