@@ -15,3 +15,4 @@ export class ProductDTO extends BaseDTO {
   @IsNotEmpty()
   category!: CategoryEntity;
 }
+//h

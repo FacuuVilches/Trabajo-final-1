@@ -21,3 +21,4 @@ export class PurchaseEntity extends BaseEntity {
   )
   purchaseProduct!: PurchaseProductEntity[];
 }
+//d
