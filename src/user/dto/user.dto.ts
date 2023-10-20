@@ -19,7 +19,7 @@ export class UserDTO extends BaseDTO {
 
   @IsNotEmpty()
   city!: string;
-//ss
+//bb
   @IsNotEmpty()
   province!: string;
 
