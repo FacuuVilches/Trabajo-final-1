@@ -1,5 +1,5 @@
 import { IsNotEmpty } from "class-validator";
-import { BaseDTO } from "../config/base.dto";
+import { BaseDTO } from "../../config/base.dto";
 import { CategoryEntity } from "../category/category.entity";
 
 export class ProductDTO extends BaseDTO {
@@ -15,4 +15,3 @@ export class ProductDTO extends BaseDTO {
   @IsNotEmpty()
   category!: CategoryEntity;
 }
-//h

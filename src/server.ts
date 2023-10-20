@@ -4,7 +4,7 @@ import morgan from "morgan";
 import cors from "cors";
 import path from "path";
 import { UserRouter } from "./user/user.router";
-import { ConfigServer } from "./config/config";
+import { ConfigServer } from "../config/config";
 import { DataSource } from "typeorm";
 
 class ServerBootstrap extends ConfigServer {

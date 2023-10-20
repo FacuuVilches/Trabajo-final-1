@@ -1,5 +1,5 @@
 import { IsNotEmpty, IsOptional } from "class-validator";
-import { BaseDTO } from "../config/base.dto";
+import { BaseDTO } from "../../config/base.dto";
 
 export class CategoryDTO extends BaseDTO {
   @IsNotEmpty()
@@ -18,4 +18,3 @@ export enum ColorBadge {
   SUCCESS = "success",
   WARNING = "warning",
 }
-//jh

@@ -1,5 +1,5 @@
 import { IsNotEmpty } from "class-validator";
-import { BaseDTO } from "../../config/base.dto";
+import { BaseDTO } from "../../../config/base.dto";
 import { CustomerEntity } from "../../customer/customer.entity";
 
 export class PurchaseDTO extends BaseDTO {

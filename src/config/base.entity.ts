@@ -25,3 +25,4 @@ export abstract class BaseEntity {
 //created_at
 //updated_at
   
+//s

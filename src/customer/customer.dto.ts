@@ -1,5 +1,5 @@
 import { IsNotEmpty } from "class-validator";
-import { BaseDTO } from "../config/base.dto";
+import { BaseDTO } from "../../config/base.dto";
 import { CategoryEntity } from "../category/category.entity";
 import { UserEntity } from "../user/entities/user.entity";
 
