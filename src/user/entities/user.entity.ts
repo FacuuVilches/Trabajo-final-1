@@ -1,5 +1,5 @@
 import { Column, Entity, OneToOne } from "typeorm";
-import { BaseEntity } from "../../../config/base.entity";
+import { BaseEntity } from "../../config/base.entity";
 import { CustomerEntity } from "../../customer/customer.entity";
 import { RoleType } from "../dto/user.dto";
 
